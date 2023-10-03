@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black ;
+}
+.nav{
+    padding: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    height: 20px;
+}
+a{
+    color: white;
+    padding-left: 70px;
+ text-decoration: none;
+ font-size: 25px;
+ transition: all 0.5s ease;
+
+}
+.home{
+    padding-left: 100px;
+}
+.h1{
+    justify-content: left;
+    font-size: 57px;
+   margin-top: -30px;
+   color: aliceblue;
+   margin-right: 160px;
+}
+a:hover{
+        color:lightseagreen;
+}
+.data{
+    margin-right: 20px;
+    margin-top: -280px;
+    margin-left: 700px;
+    align-content: end;
+    color: white;
+    
+}
+button{
+    color: black;
+    font-weight: 800;
+    box-sizing: border-box;
+    margin-left: 140px;
+    background-color:lightseagreen;
+    border-color: white;
+    font-size: 14px;    
+    height: 30px;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background-color: darkgrey;
+    color: black;
+
+}
+.img{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+
+.contact-info, .social-links {
+    flex: 1;
+    margin-right: 20px;
+
+}
+
+.contact-info h3, .social-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 2px;
+    color: lightseagreen;
+    margin-top: 20px;
+margin-left: 70px;
+}
+
+.contact-info p, .social-links a {
+    font-size: 1.2em;
+    color:white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.copyright p {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 1em;
+    margin-left: -1130px;  
+    color: lightseagreen;
+}
