@@ -98,3 +98,50 @@ margin-left: 70px;
     margin-left: -1130px;  
     color: lightseagreen;
 }
+@media only screen and (max-width:600px){
+    .nav{
+        width: 100%;
+        margin-left: 300px;
+    }
+    .nav h1{
+        font-size: 80px;
+    }
+    .nav a{
+        display: none;
+    }
+    .img{
+          height: 600px;
+          width: 700px;
+          margin-left: 50px;
+          margin-top: 200px;
+    }
+    .data{
+        margin-top: 180px;
+        margin-left: 100px;
+
+    }
+    .data h3{
+        font-size: 50px;
+        margin-top: -70px;
+    }
+    .data h1{
+        font-size: 45px;
+        margin-top: 20px;   
+    }
+    .data p{
+        margin-top: -200px;
+        margin-left: 340px;
+        width: 66%;
+    }
+    .data button{
+        height: 60px;
+        margin-left: 5px;
+        width: 300px;
+        border-radius: 40px;
+    }
+    .portfolio-footer{
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+
+}
